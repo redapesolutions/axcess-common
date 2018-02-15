@@ -1,4 +1,4 @@
-const {addToHistoryN, addToHistory} = require('.')
+const {addToHistoryN, addToHistory} = require('../../build/index')
 
 describe('History', () => {
   describe('history builder', () => {
