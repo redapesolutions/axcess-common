@@ -1,0 +1,22 @@
+{
+  "name": "axcess-common",
+  "version": "1.0.0",
+  "description": "Axcess common modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "testEnvironment": "node",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git-codecommit.us-east-2.amazonaws.com/v1/repos/axcess-common"
+  },
+  "keywords": [
+    "axcess"
+  ],
+  "author": "Matiboy <mathieu@redapesolutions.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.3.0"
+  }
+}
