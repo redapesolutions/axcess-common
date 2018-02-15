@@ -1,4 +1,4 @@
-const {addToHistoryN, addToHistory} = require('../../build/index')
+const {addToHistoryN, addToHistory} = require('../../build/index.umd')
 
 describe('History', () => {
   describe('history builder', () => {
