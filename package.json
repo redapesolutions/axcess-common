@@ -1,6 +1,6 @@
 {
   "name": "axcess-common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Axcess common modules",
   "main": "build/index.umd.js",
   "module": "build/index.esm.js",
