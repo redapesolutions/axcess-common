@@ -42,7 +42,6 @@ const DocumentCategoryType = {
 
 const buildDocument = (title, category) => {
   const categoryKey = findKey(DocumentCategoryType, x => x === category);
-  console.log(categoryKey);
   return {
     title,
     category,
