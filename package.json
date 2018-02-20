@@ -5,7 +5,14 @@
   "main": "build/index.umd.js",
   "module": "build/index.esm.js",
   "scripts": {
-    "test": "jest"
+    "test": "npm run build && jest",
+    "build": "./node_modules/.bin/rollup -c rollup.config.js"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "build/index.umd.js"
+    ]
   },
   "testEnvironment": "node",
   "repository": {
@@ -19,6 +26,7 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^22.3.0",
+    "lodash": "^4.17.5",
     "rollup": "^0.55.5"
   },
   "devDependencies": {
@@ -27,7 +35,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "./node_modules/.bin/rollup -c rollup.config.js && npm test",
-      "pre-push": "npm version patch"
+      "postversion": "git push && git push --tags"
     }
   }
 }

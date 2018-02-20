@@ -1,0 +1,17 @@
+export const CategoryPrice = {
+  Company_Profiles: 10,
+  Financial_Comparison: 20,
+  Certificate_of_Incorporation: 30,
+  Certificate_of_Change_of_Name: 40,
+  Certificate_of_Conversion_of_Company: 50,
+  Corporate_Form_Images: 60,
+  Attestation_of_Company_Good_Standing: 70,
+  Business_Profiles: 80,
+  Business_Registration_Certificate: 90,
+  Business_Termination_Letter: 100,
+  Business_Form_Images: 110,
+  Particulars_of_Directors_Officers: 120,
+  Particulars_of_Registered_Address: 130,
+  Particulars_of_Share_Capital: 140,
+  Particulars_of_Shareholder: 150,
+}

@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for index.umd.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="prettify.css" />
+    <link rel="stylesheet" href="base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="index.html">All files</a> index.umd.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>23/23</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">50% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>6/12</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>7/7</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>19/19</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79</td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">29x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">53x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">(function (global, factory) {
+	typeof exports === 'object' &amp;&amp; typeof module !== 'undefined' ? factory(exports, require('lodash/findKey')) :
+<span class="branch-1 cbranch-no" title="branch not covered" >	typeof define === 'function' &amp;&amp; define.amd ? define(['exports', 'lodash/findKey'], factory) :</span>
+	(factory((global.axcessCommon = {}),global.findKey));
+}(this, (function (exports,findKey) { 'use strict';
+&nbsp;
+findKey = findKey &amp;&amp; findKey.hasOwnProperty('default') ? <span class="branch-0 cbranch-no" title="branch not covered" >findKey['default'] </span>: findKey;
+&nbsp;
+const addToHistoryN = n =&gt; (value, old) =&gt; [value, ...old.filter(h =&gt; h !== value).slice(0, n - 1)];
+&nbsp;
+const addToHistory = addToHistoryN(10);
+&nbsp;
+const CategoryPrice = {
+  Company_Profiles: 10,
+  Financial_Comparison: 20,
+  Certificate_of_Incorporation: 30,
+  Certificate_of_Change_of_Name: 40,
+  Certificate_of_Conversion_of_Company: 50,
+  Corporate_Form_Images: 60,
+  Attestation_of_Company_Good_Standing: 70,
+  Business_Profiles: 80,
+  Business_Registration_Certificate: 90,
+  Business_Termination_Letter: 100,
+  Business_Form_Images: 110,
+  Particulars_of_Directors_Officers: 120,
+  Particulars_of_Registered_Address: 130,
+  Particulars_of_Share_Capital: 140,
+  Particulars_of_Shareholder: 150,
+};
+&nbsp;
+const DocumentCategoryType = {
+  Company_Profiles: 1,
+  Financial_Comparison: 2,
+  Certificate_of_Incorporation: 3,
+  Certificate_of_Change_of_Name: 4,
+  Certificate_of_Conversion_of_Company: 5,
+  Corporate_Form_Images: 6,
+  Attestation_of_Company_Good_Standing: 7,
+  Business_Profiles: 8,
+  Business_Registration_Certificate: 9,
+  Business_Termination_Letter: 10,
+  Business_Form_Images: 11,
+  Particulars_of_Directors_Officers: 12,
+  Particulars_of_Registered_Address: 13,
+  Particulars_of_Share_Capital: 14,
+  Particulars_of_Shareholder: 15,
+};
+&nbsp;
+const buildDocument = (title, category) =&gt; {
+  const categoryKey = findKey(DocumentCategoryType, x =&gt; x === category);
+  console.log(categoryKey);
+  return {
+    title,
+    category,
+    price: CategoryPrice[categoryKey],
+  }
+};
+&nbsp;
+const DefaultDocumentTypes = {
+  Company: [
+    buildDocument('COMPANY PROFILE', 1),
+    buildDocument('CERTIFICATES OF INCORPORATION/REGISTRATION', 3),
+    buildDocument('PARTICULAR OF REGISTERED ADDRESS', 13),
+    buildDocument('PARTICULAR OF DIRECTORS/OFFICERS', 1),
+  ]
+};
+&nbsp;
+exports.addToHistoryN = addToHistoryN;
+exports.addToHistory = addToHistory;
+exports.DocumentCategoryType = DocumentCategoryType;
+exports.buildDocument = buildDocument;
+exports.DefaultDocumentTypes = DefaultDocumentTypes;
+exports.CategoryPrice = CategoryPrice;
+&nbsp;
+Object.defineProperty(exports, '__esModule', { value: true });
+&nbsp;
+})));
+//# sourceMappingURL=index.umd.js.map
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Feb 21 2018 07:46:14 GMT+0800 (+08)
+</div>
+</div>
+<script src="prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="sorter.js"></script>
+</body>
+</html>
