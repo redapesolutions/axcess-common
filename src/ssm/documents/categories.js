@@ -33,7 +33,7 @@ export const DefaultDocumentTypes = {
     buildDocument('COMPANY PROFILE', 1),
     buildDocument('CERTIFICATES OF INCORPORATION/REGISTRATION', 3),
     buildDocument('PARTICULAR OF REGISTERED ADDRESS', 13),
-    buildDocument('PARTICULAR OF DIRECTORS/OFFICERS', 1),
+    buildDocument('PARTICULAR OF DIRECTORS/OFFICERS', 12),
   ],
   Business: [
     buildDocument('BUSINESS PROFILE', 8),

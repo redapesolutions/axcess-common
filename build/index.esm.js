@@ -55,6 +55,9 @@ const DefaultDocumentTypes = {
     buildDocument('CERTIFICATES OF INCORPORATION/REGISTRATION', 3),
     buildDocument('PARTICULAR OF REGISTERED ADDRESS', 13),
     buildDocument('PARTICULAR OF DIRECTORS/OFFICERS', 1),
+  ],
+  Business: [
+    buildDocument('BUSINESS PROFILE', 8),
   ]
 };
 
